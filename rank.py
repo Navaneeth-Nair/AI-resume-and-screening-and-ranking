@@ -2,7 +2,7 @@ from sentence_transformers import SentenceTransformer
 import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
 
-model = SentenceTransformer("microsoft/mpnet-base")
+model = SentenceTransformer("all-MiniLM-L6-v2")
 
 def jobdescsimilarity(job_description, resume_text):
     if not resume_text:

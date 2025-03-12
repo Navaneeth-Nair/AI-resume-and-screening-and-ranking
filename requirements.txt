@@ -1,0 +1,5 @@
+sentence_transformers
+sklearn
+nltk
+docx2txt
+PyMuPDF2
